@@ -1,0 +1,84 @@
+:root
+{
+    --primary-color: #2b83ff; /* Green */
+    --secondary-color: #006aff; /* Red */
+    --background-color: #f0f0f0; /* Light Gray */
+    --text-color: #ffffff; /* Dark Gray */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(./pexels-marek-piwnicki-3907296-10050567.jpg);
+    background-size: cover;
+    
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+.container{
+  background: rgba(99, 99, 99, 0.252); /* White with slight transparency */
+    backdrop-filter: blur(8px); /* Blurs what's behind */
+    -webkit-backdrop-filter: blur(8px); /* Safari support */
+    border-radius: 10px;
+    padding: 20px;
+    color:var(--text-color);
+    width: max-content;
+    margin:30px auto;
+    display: flex;
+}
+
+.calciform{
+    width: max-content;
+    margin: 30px auto;
+    margin-right: 30px;
+}
+
+
+.form>label,input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    
+}
+
+input::placeholder{
+    padding-left: 0px;
+
+}
+
+input{
+    padding-left: 10px;  /* Moves text away from left edge */
+    
+}
+
+
+.buttons>button{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+.buttons>button:hover{
+    background-color: var(--secondary-color);
+}
+
+.results{
+    background: rgba(99, 99, 99, 0.252); /* White with slight transparency */
+    backdrop-filter: blur(8px); /* Blurs what's behind */
+    -webkit-backdrop-filter: blur(8px); /* Safari support */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 10px;
+}
+
+.results>div>p{
+    margin: 50px auto;
+}
+
+
