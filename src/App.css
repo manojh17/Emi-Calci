@@ -1,4 +1,9 @@
 div{
   margin: 0px auto;
-  
+
+}
+
+body{
+  background-image: url(./pexels-marek-piwnicki-3907296-10050567.jpg);
+  background-size: cover;
 }
